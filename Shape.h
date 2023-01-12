@@ -5,18 +5,20 @@ using namespace std;
 class Shape
 {
 protected:
+	string formula;
 	float area;
 	float perimeter;
-	float size;
+	float side;
 
 public:
 	Shape() 
 	{
+		formula = "";
+		side = 0;
 		area = 0; 
 		perimeter = 0; 
-		size = 0;
 	}
 	virtual float getArea() = 0;
-	virtual void getPerimeter() = 0;
-	virtual void showFormula() = 0;
+	virtual float getPerimeter() = 0;
+	virtual string showFormula() = 0;
 };

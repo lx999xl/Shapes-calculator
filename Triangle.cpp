@@ -2,14 +2,14 @@
 
 Triangle::Triangle()
 {
-	size = 0;
+	side = 0;
 	base = 0;
 	height = 0;
 } 
 
-Triangle::Triangle(float aSize, float aBase, float aHeight)
+Triangle::Triangle(float aSide, float aBase, float aHeight)
 {
-	size = aSize;
+	side = aSide;
 	base = aBase;
 	height = aHeight;
 }
@@ -20,12 +20,14 @@ float Triangle::getArea()
 	return area;
 }
 
-void Triangle::getPerimeter()
+float Triangle::getPerimeter()
 {
-	perimeter = size * 3;
+	perimeter = side * 3;
+	return perimeter;
 }
 
-void Triangle::showFormula()
+string Triangle::showFormula()
 {
-	cout << "\n\nArea = (base * altura) / 2";
+	formula = "\n\nArea de un triangulo:\n(base * altura) / 2\n\n";
+	return formula;
 }

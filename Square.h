@@ -1,11 +1,11 @@
 #pragma once
 #include "WithBaseAndHeight.h"
 
-class Triangle : public WithBaseAndHeight
+class Square : public WithBaseAndHeight
 {
 public:
-	Triangle();
-	Triangle(float aSide, float aBase, float aHeight);
+	Square();
+	Square(float aSide);
 	float getArea();
 	float getPerimeter();
 	string showFormula();

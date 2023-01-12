@@ -5,4 +5,10 @@ class WithApothem
 {
 protected:
 	float apothem;
+
+public:
+	WithApothem()
+	{
+		apothem = 0;
+	}
 };
