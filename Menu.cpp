@@ -7,6 +7,7 @@ void Menu::start()
 	Rectangle* rectangle = new Rectangle(6, 3);
 	Pentagon* pentagon = new Pentagon(5);
 	Hexagon* hexagon = new Hexagon(6);
+	RegularPolygon* regularpolygon = new RegularPolygon(8,6,5);
 
 	cout << triangle->getArea();
 	cout << triangle->showFormula();
@@ -22,4 +23,7 @@ void Menu::start()
 
 	cout << "El area del hexagono es: " << hexagon->getArea();
 	cout << hexagon->showFormula();
+
+	cout << "El area del poligono regular es: " << regularpolygon->getArea();
+	cout << regularpolygon->showFormula();
 }

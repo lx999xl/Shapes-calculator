@@ -4,6 +4,7 @@
 #include "Rectangle.h"
 #include "Pentagon.h"
 #include "Hexagon.h"
+#include "RegularPolygon.h"
 
 class Menu
 {
