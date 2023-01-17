@@ -2,6 +2,8 @@
 
 void Menu::start()
 {
+	setlocale(LC_ALL, "");
+
 	Triangle* triangle = new Triangle(2, 2, 2);
 	Square* square = new Square(4);
 	Rectangle* rectangle = new Rectangle(6, 3);
