@@ -1,7 +1,7 @@
 #pragma once
 #include "Shape.h"
 
-class WithApothem
+class WithApothem : public Shape
 {
 protected:
 	float apothem;
