@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Hexagon.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Pentagon.h" />
     <ClInclude Include="Rectangle.h" />
@@ -137,6 +138,7 @@
     <ClInclude Include="WithBaseAndHeight.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Hexagon.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Rectangle.cpp" />

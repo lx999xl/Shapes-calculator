@@ -6,7 +6,7 @@ class Shape
 {
 protected:
 	string formula;
-	float area;
+	double area;
 	float perimeter;
 	float side;
 
